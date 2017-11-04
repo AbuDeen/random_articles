@@ -1,0 +1,57 @@
+Recently, significant shifts in network configuration practices have led to controller networking. This shift is focused on a dynamic, self-adapting, and policy-driven paradigm in order to reduce complexity and solve scaling challenges. The origins can be traced back to the development of the OpenFlow protocol in 2005, though Cisco was already using a centralized management interface for wireless access points and unified communications devices
+
+Since 2005, the WAN Automation Engine has been a powerful, flexible software-defined networking (SDN) platform. It abstracts and simplifies your WAN environment while making it fully open and programmable. You can deploy innovative services such as Coordinated Maintenance, bandwidth calendaring, and premium network-routing solutions. Cisco has developed and released into production various controllers and domain managers to abstract hardware and software for the network operator
+
+It’s no longer viable to manage devices box by box – there needs to be a unification of the systems that are deployed, ultimately treating a collection of devices as a system, also creating better abstractions without the need to know the commands that are needed to configure a certain feature on any given platform
+
+Traditional network operations suffer from three core problems including complexity, scaling, and the impact humans have on managing the network. Let’s take a look at each:
+
+    Complexity:
+    The distributed nature of network infrastructure devices, network administrators must manage and monitor each device as a separate autonomous entity. As well, because of the lack of a central place to define policy, complexity quickly starts to rise as multiple features and protocols must be layered on top of each other to provide the desired network behavior. This layered protocol approach quickly results in a network that is not only difficult to troubleshoot, but also extremely fragile to further change. More over and the biggest issue at hand today is that many networks are unique as snow flakes and there should not non-standard configurations that exist “just because”
+
+    Scaling Challenges:
+    As the size of the network grows, the amount of effort that is required to implement any change, new feature, or solution scales linearly with the size of the network. Imagine the effort that is required to deploy a new ACL or QoS policy across 5000 switches
+
+    Human Error
+    The undisputed number one cause of network outages is human error. Whether due to poor typing skills, simple errors, tired network administrators attempting changes at 2am, or just plain lack of attention to detail; it is clear that human beings manually making changes are the number one cause of downtime or degradation in networks
+
+    People are just not good at performing repetitive tasks with a high degree of consistency. As the number of devices increases, so the number of changes increases required to manage the network. As the scale increase, it becomes more likely that any changes that are implemented by humans are going to have a higher chance of misconfigurations, whether that be simple typos, applying a new change to the wrong device, or even completely missing a device altogether
+
+    And the number of changes humans are making is increasing as there are more demands from the business to deploy more applications at a faster rate than ever before
+
+    One solution to simplify how networks are built and managed are controller-based networking solutions and architectures. They address many of the issues managing networks manually using the following methods:
+
+       Single Point of Administration:
+           Similar to what’s available how all IP phones in a Cisco Unified Communications Manager deployment are configured through the CUCM server interface, the controller provides a single point of administration for network administrators to be able to manage and monitor multiple switches and routers as if they were single entity. This single point of administration addresses the scalability problem in that administrators are no longer required to touch each individual device to be able to make changes to the environment. This concept is also not new as controllers have also been around for over ten years and used for campus wireless networking.
+
+      Centralized Policy:
+          Similar to what the behavior is between Cisco Wireless LAN Controllers and its managed Access Points, the controller provides a single point to define policy, reducing overall complexity through the consistent application of policy to all devices that fall within the controllers management domain. It is this policy management that is also needed on the physical network. Think about how easy it is to enable AAA for wireless clients vs. AAA for wired client (need AAA changes on a controller vs. on every switch!).
+
+       Automated Change:
+           By pushing responsibility for changes to the centralized controller, human error can be avoided through various methods including:
+
+               Validation of the change on the centralized controller
+               Consistent application of the change to all devices
+               Ability to disable changes to the device outside of the controller itself
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
